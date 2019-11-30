@@ -14,10 +14,10 @@ a21 = 1.39E-03*exp(j*53*pi/180);
 a22 = 5.69*exp(j*-1.7*pi/180);
 A=[a11 a12; a21 a22];
 YW = (1/a12)*[a22 -det(A); -1 a11]
-YW1=abs(YW)
-YW12=angle(YW)*180/pi
+YW1=abs(YW);
+YW12=angle(YW)*180/pi;
 
-Z = 1975 - 944.6i;
+Z = 1643.94 - 3717.45i;
 Ku = Z/(a11*Z+a12);
 Ki = (-1)/(a21*Z+a22);
 Kifi = angle(Ki)*180/pi;

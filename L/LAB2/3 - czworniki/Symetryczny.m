@@ -17,13 +17,13 @@ YW = (1/a12)*[a22 -det(A); -1 a11];
 YW1=abs(YW);
 YW12=angle(YW)*180/pi;
 
-Z = 2168.3 - 823.4i;
+Z = 1462 - 1130i;
 Ku = Z/(a11*Z+a12);
 Ki = (-1)/(a21*Z+a22);
 Kifi = angle(Ki)*180/pi;
 Kufi = angle(Ku)*180/pi;
-Kure = abs(Ku)
-Kire = abs(Ki)
+Kure = abs(Ku);
+Kire = abs(Ki);
 
 KuY = (-y21*Z)/(y22*Z+1);
 KiY = (y21)/(det(Y)*Z+y11);
